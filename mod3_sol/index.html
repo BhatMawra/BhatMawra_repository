@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/module3_sol.css">
+	
+	<title>Module 3 Solution</title>
+</head>
+<body>
+    <header class="nav-header">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <p class="nav-brand">Chinar Restaurant</p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#chicken-div"><p class="item">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center beef-item">
+              <a href="#beef-div"><p class="item">Beef</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center sushi-item">
+              <a href="#sushi-div"><p class="item">Sushi</p></a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+  	</header>
+
+	<h1 class="text-center">Our Menu</h1>
+
+	<div class="row container container-fluid">
+	<div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div">
+		<section>
+		<div id="chicken">
+			Chicken
+		</div>
+		<table>
+  <tr>
+    <th>Dish</th>
+    <th>Price</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Chicken Biryani</td>
+    <td>Rs.230</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button>
+</td>
+  </tr>
+  <tr>
+    <td>BonBon Chicken</td>
+    <td>Rs.320</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Bourbon Chicken</td>
+    <td>Rs.200</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Brown Stew Chicken</td>
+    <td>Rs.440</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Barbeque Chicken</td>
+    <td>Rs.150/Stick</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+</table>
+	
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
+		<section>
+		<div id="beef">
+			Beef
+		</div>
+		<table>
+  <tr>
+    <th>Dish</th>
+    <th>Price</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Beef Brisket</td>
+    <td>Rs.930</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Beef Casserole</td>
+    <td>Rs.730</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Beef Stew</td>
+    <td>Rs.420</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Beef Steaks</td>
+    <td>Rs.500</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Meat Balls</td>
+    <td>Rs.245</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+</table>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
+		<section>
+		<div id="sushi">
+			Sushi
+		</div>
+		<table>
+  <tr>
+    <th>Dish</th>
+    <th>Price</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Spicy Tuna Sushi Roll.</td>
+    <td>Rs.120</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>California Sushi Roll</td>
+    <td>Rs.530</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Dragon Sushi Roll</td>
+    <td>Rs.810</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Rainbow Sushi Roll</td>
+    <td>Rs.640</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+  <tr>
+    <td>Tiger Sushi Roll</td>
+    <td>Rs.950</td>
+    <td><button type="button"onclick="alert('Add this item to cart')">ORDER</button></td>
+  </tr>
+</table>
+		</section>
+	</div>
+	</div>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
+</body>
+</html>
